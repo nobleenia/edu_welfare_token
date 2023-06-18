@@ -1,0 +1,566 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: purple;
+    padding: 10px;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #6e42a9;
+  }
+  
+  /* About section styles */
+  .about-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Token benefits section styles */
+  .token-benefits-section {
+    padding: 40px 0;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .benefit img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* Token sale section styles */
+  .token-sale-section {
+    background-color: purple;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .token-sale-section h2,
+  .token-sale-section p {
+    margin-bottom: 20px;
+  }
+  
+  .token-sale-section .cta-button {
+    background-color: white;
+    color: purple;
+  }
+  
+  /* Latest news section styles */
+  .latest-news-section {
+    padding: 40px 0;
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .news-item {
+    text-align: center;
+  }
+  
+  .news-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Join community section styles */
+  .join-community-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  .join-community-section h2,
+  .join-community-section p {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-icon {
+    color: purple;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #6e42a9;
+  }
+  
+  .subscription-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscription-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .subscription-form button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #6e42a9;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Introduction section styles */
+.introduction-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .introduction-section h2 {
+    color: purple;
+  }
+  
+  /* Vision and Mission section styles */
+  .vision-statement,
+  .mission-statement {
+    margin-bottom: 40px;
+  }
+  
+  .vision-statement h3,
+  .mission-statement h3 {
+    color: purple;
+  }
+  
+  /* Token's Purpose section styles */
+  .token-purpose-section {
+    padding: 40px 0;
+  }
+  
+  .token-purpose-section h2 {
+    color: purple;
+  }
+  
+  /* Team Members section styles */
+  .team-members-section {
+    padding: 40px 0;
+  }
+  
+  .team-members-section h2 {
+    color: purple;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Partnerships section styles */
+  .partnerships-section {
+    padding: 40px 0;
+  }
+  
+  .partnerships-section h2 {
+    color: purple;
+  }
+  
+  .partnership-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials-section {
+    padding: 40px 0;
+  }
+  
+  .testimonials-section h2 {
+    color: purple;
+  }
+  
+  .testimonials-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* CTA section styles */
+  .cta-section {
+    background-color: purple;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    color: white;
+  }
+  
+  .cta-section p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #6e42a9;
+    color: white;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  /* Token Overview section styles */
+.token-overview-section {
+    padding: 40px 0;
+  }
+  
+  .token-overview-section h2 {
+    color: purple;
+  }
+  
+  /* Token Utility section styles */
+  .token-utility-section {
+    padding: 40px 0;
+  }
+  
+  .token-utility-section h2 {
+    color: purple;
+  }
+  
+  /* Staking and Rewards section styles */
+  .staking-rewards-section {
+    padding: 40px 0;
+  }
+  
+  .staking-rewards-section h2 {
+    color: purple;
+  }
+  
+  /* Token Allocation section styles */
+  .token-allocation-section {
+    padding: 40px 0;
+  }
+  
+  .token-allocation-section h2 {
+    color: purple;
+  }
+  
+  .token-allocation-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .token-allocation-section th,
+  .token-allocation-section td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Roadmap section styles */
+  .roadmap-section {
+    padding: 40px 0;
+  }
+  
+  .roadmap-section h2 {
+    color: purple;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .timeline:before,
+  .timeline:after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  /* Token Sale Information section styles */
+  .token-sale-section {
+    padding: 40px 0;
+  }
+  
+  .token-sale-section h2 {
+    color: purple;
+  }
+  
+  .token-sale-details {
+    /* Token sale details styling */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+
+  /* Resource Categories section styles */
+.resource-categories-section {
+  padding: 40px 0;
+}
+
+.resource-categories-section h2 {
+  color: purple;
+}
+
+.category-buttons {
+  /* Category buttons or links styling */
+}
+
+/* Resource Listings section styles */
+.resource-listings-section {
+  padding: 40px 0;
+}
+
+.resource-listings-section h2 {
+  color: purple;
+}
+
+.resource-cards {
+  /* Resource cards with descriptions and links styling */
+}
+
+/* Filtering and Search section styles */
+.filtering-search-section {
+  padding: 40px 0;
+}
+
+.filtering-search-section h2 {
+  color: purple;
+}
+
+#filter-form {
+  /* Filtering options styling */
+}
+
+/* User Contributions section styles */
+.user-contributions-section {
+  padding: 40px 0;
+}
+
+.user-contributions-section h2 {
+  color: purple;
+}
+
+#contribution-form {
+  /* Form fields for user contributions styling */
+}
+
+/* Expert Contributors section styles */
+.expert-contributors-section {
+  padding: 40px 0;
+}
+
+.expert-contributors-section h2 {
+  color: purple;
+}
+
+.expert-profiles {
+  /* Profiles or introductions of expert contributors styling */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Community Engagement section styles */
+.community-engagement-section {
+    padding: 40px 0;
+  }
+  
+  .community-engagement-section h2 {
+    color: purple;
+  }
+  
+  .testimonials {
+    /* Testimonials or success stories styling */
+  }
+  
+  .community-initiatives {
+    /* Community-driven initiatives styling */
+  }
+  
+  /* Discussion Forums section styles */
+  .discussion-forums-section {
+    padding: 40px 0;
+  }
+  
+  .discussion-forums-section h2 {
+    color: purple;
+  }
+  
+  .forum-container {
+    /* Interactive discussion area or forum plugin styling */
+  }
+  
+  /* Events and Meetups section styles */
+  .events-meetups-section {
+    padding: 40px 0;
+  }
+  
+  .events-meetups-section h2 {
+    color: purple;
+  }
+  
+  .upcoming-events {
+    /* Upcoming events or meetups styling */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
